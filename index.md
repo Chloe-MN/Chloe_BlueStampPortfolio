@@ -78,7 +78,7 @@ Don't forget to place the link of where to buy each component inside the quotati
 
 | **Part** | **Note** | **Price** | **Link** |
 |:--:|:--:|:--:|:--:|
-| Item Name | What the item is used for | $Price | <a href="https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/"> Link </a> |
+| Complete Starter Kit Based on Arduino UNO R3 w/Detailed Free Tutorial Compatible with Arduino IDE (67 Items) |Has the basics of Arduino| $50 | <a href="[https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/](https://www.amazon.com/REXQualis-Complete-Development-Detailed-Tutorial/dp/B07BLV5LFY/ref=sr_1_14_sspa?crid=305LJVW81VSYP&dib=eyJ2IjoiMSJ9.y5hO4bhfbA1ueyZdg3qkQkRP6PNtlNLXR7IGb14Ahec2kja4Bj8V9cSRqqEdfp2wnS0wYTfmPHFpGpXj-YJ1iMWZ5lPBMBj5mqQ66znlDc1Jk_D1uN01ZBXJflrdszA_CYSdA-6N6KAYOtOTPq7Gb-lNQ9YdVZm347GtOCkbYdtrVodd52BQfxx7v3MdBFNKJJaif0qcpN6tpvaC226bB-O9ipZ3Ulw-KnOQw3042HGlfgqlTLG4sltHGcEsvuExhTD8hs4wVazGuU6OFHGjAFEaH6WpGhpIfzUxb-iCWBU.MrVna1MXDuAIBJTBh5dSObKppWY7rAPIqpgNIKzJ6mk&dib_tag=se&keywords=arduino+soil+moisture+kit&qid=1718996652&sprefix=arduino+soil+moisture+kit%2Caps%2C78&sr=8-14-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9tdGY&psc=1)"> Link </a> |
 | Item Name | What the item is used for | $Price | <a href="https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/"> Link </a> |
 | Item Name | What the item is used for | $Price | <a href="https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/"> Link </a> |
 
