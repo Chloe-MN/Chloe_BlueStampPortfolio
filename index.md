@@ -59,16 +59,72 @@ Here's where you'll put images of your schematics. [Tinkercad](https://www.tinke
 # Code
 Here's where you'll put your code. The syntax below places it into a block of code. Follow the guide [here]([url](https://www.markdownguide.org/extended-syntax/)) to learn how to customize it to your project needs. 
 
-```c++
-void setup() {
-  // put your setup code here, to run once:
+```#include <LiquidCrystal.h>
+
+
+LiquidCrystal lcd(12, 11, 10, 9, 8, 7);
+const int AirValue = 150;
+const int WaterValue = 137;
+const int ThresholdValue = 135;
+int soilMoistureValue = 0;
+const int RelayPin = 2;
+
+
+void setup()
+{
   Serial.begin(9600);
-  Serial.println("Hello World!");
+  lcd.begin(16, 2);
+  pinMode(RelayPin, OUTPUT);
+  digitalWrite(RelayPin, HIGH);
 }
 
-void loop() {
-  // put your main code here, to run repeatedly:
 
+void loop()
+{
+  soilMoistureValue = analogRead(A0);
+  Serial.println(soilMoistureValue);
+
+
+  lcd.setCursor(0, 0);
+  lcd.print("Moisture: ");
+  float moisturePercentage = map(soilMoistureValue, AirValue, WaterValue, 0, 100);
+  lcd.print(moisturePercentage, 0);
+  lcd.print("%");
+
+
+  int upperLimit = ThresholdValue + 0.1 * (AirValue - WaterValue);
+  int lowerLimit = ThresholdValue - 0.1 * (AirValue - WaterValue);
+
+
+  if (moisturePercentage < 30.0)
+  {
+    digitalWrite(RelayPin, LOW);
+    lcd.setCursor(0, 1);
+    lcd.print("Pump: ON ");
+  }
+  else if (moisturePercentage > 70.0)
+  {
+    digitalWrite(RelayPin, HIGH);
+    lcd.setCursor(0, 1);
+    lcd.print("Pump: OFF");
+  }
+  else
+  {
+    lcd.setCursor(0, 1);
+    lcd.print("Pump: ");
+    if (digitalRead(RelayPin) == LOW)
+    {
+      lcd.print("ON");
+    }
+    else
+    {
+      lcd.print("OFF");
+    }
+  }
+
+
+  delay(250);
+  lcd.clear();
 }
 ```
 
