@@ -1,5 +1,5 @@
 # Automatic Plant Watering
-Replace this text with a brief description (2-3 sentences) of your project. This description should draw the reader in and make them interested in what you've built. You can include what the biggest challenges, takeaways, and triumphs from completing the project were. As you complete your portfolio, remember your audience is less familiar than you are with all that your project entails!
+The goal of this project is to use an Arduino board and a soil moisture sensor to create an automated plant-watering system. To guarantee the ideal conditions for plant growth, the system monitors the amount of moisture in the soil and regulates the watering schedule. This project offers a pleasant way for those who want to combine technology with nature, and it is appropriate for both seasoned gardeners and tech enthusiasts.
 
 You should comment out all portions of your portfolio that you have not completed yet, as well as any instructions:
 ```HTML 
