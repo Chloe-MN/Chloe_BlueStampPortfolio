@@ -32,7 +32,7 @@ For my last milestone, I extended the sensor's range to reach the soil using lon
 For my first milestone, I've completed my base project. My project is an automated system for maintaining optimal plant moisture levels, suitable for indoor and outdoor plants. It used a 12V power supply, soil moisture sensor, Arduino, and relay module. The sensor measured moisture percentages, and the Arduino controlled the water pump based on moisture percentage. The lcd screen displayed real-time moisture levels and pump status.
 
 # Schematics 
-![Headstone Image](IMG_6127.jpg)
+![Headstone Image](Screenshot2024-07-19131751.png)
 
 # Code
 ```c++
