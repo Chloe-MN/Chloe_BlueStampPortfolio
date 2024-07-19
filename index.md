@@ -38,10 +38,7 @@ For my first milestone, I've completed my base project. My project is an automat
 Here's where you'll put images of your schematics. [Tinkercad](https://www.tinkercad.com/blog/official-guide-to-tinkercad-circuits) and [Fritzing](https://fritzing.org/learning/) are both great resoruces to create professional schematic diagrams, though BSE recommends Tinkercad becuase it can be done easily and for free in the browser. 
 
 # Code
-
-
-
-
+```c++
 
 LiquidCrystal lcd(12, 11, 10, 9, 8, 7);
 const int AirValue = 150;
@@ -107,7 +104,7 @@ void loop()
   delay(250);
   lcd.clear();
 }
-
+```
 
 # Bill of Materials
 Here's where you'll list the parts in your project. To add more rows, just copy and paste the example rows below.
